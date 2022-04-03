@@ -84,7 +84,7 @@ const ChatWindow = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:5000/', {
+      const res = await fetch('https://server.aryaanish.repl.co/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
